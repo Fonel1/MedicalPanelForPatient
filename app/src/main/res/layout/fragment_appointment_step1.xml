@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AppointmentStep1">
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner_clinc"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:id="@+id/recycler_clinic"/>
+
+</LinearLayout>
